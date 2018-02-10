@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "onik.js",
+  "sourceRoot": "..",
+  "sources": [
+    "src/onik.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA,IAAA;;AAAM,OAAN,MAAA,KAAA;EACC,WAAa,CAAA,CAAA;IACZ,IAAC,CAAA,OAAD,GAAW;EADC;;AADd;;AAIA,IAAI",
+  "sourcesContent": [
+    "class ONIK\n\tconstructor: () ->\n\t\t@version = \"0.1.0\"\n\nnew ONIK\n"
+  ]
+}

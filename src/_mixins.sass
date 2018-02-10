@@ -1,0 +1,10 @@
+@mixin button__color($color, $color_text)
+  background-color: $color
+  color: $color_text
+
+  &:hover
+    background-color: lighten($color, 10%)
+
+  &:active
+    background-color: lighten($color, 20%)
+

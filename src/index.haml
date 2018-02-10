@@ -1,0 +1,41 @@
+!!! Strict
+%html
+  %head
+    %meta{:charset => "UTF-8"}
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
+    %title ONIK.sass
+    %link{:href => "onik.css", :rel => "stylesheet", :type => "text/css"}
+  %body
+    %nav
+      %section{:grow => ""}
+        %item ONIK.sass
+      %section
+        %dropdown
+          %item Txuritan Silronzem
+          %content{:grow => ""}
+            %item
+              %a{:href => "/"} Profile
+            %item
+              %a{:hred => "/"} Sign Out
+    %nav
+      %section
+        %item
+          %a{:href => "/"} Home
+        %item
+          %a{:href => "/"} Forums
+        %item
+          %a{:href => "/"} Groups
+        %item
+          %a{:href => "/"} Stories
+    %nav
+      %section
+        - 10.times do
+          %item
+            %a{:href => ""} Button
+    %alert{:warning => ""}
+      %b WARNING!
+      Your browser doesn't support ECMA6/ECMA2015, some things might not work!
+    %button Button
+    %button{:primary => ""} Button
+    %button{:secondary => ""} Button
+    %script{:src => "onik.js"}
